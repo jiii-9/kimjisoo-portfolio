@@ -1,0 +1,113 @@
+.skill {
+  background-color: #cddae9;
+}
+
+.skill > .inner {
+  height: 900px;
+}
+
+.skill .skill__left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 50%;
+  transform: translateY(-50%);
+}
+
+.skill .skill__left .skill__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.skill .skill__left .skill__title .category__title {
+  color: rgb(105, 105, 105);
+}
+
+.skill .skill__left .skill__title .category__line {
+  border-color: rgb(105, 105, 105);
+}
+
+.skill .skill__left .skill__list {
+  width: 80%;
+}
+
+.skill .skill__left .skill__list .skill__item {
+  display: flex;
+  border-top: 1px solid rgb(139, 139, 139);
+  border-bottom: 1px solid rgb(139, 139, 139);
+}
+
+.skill .skill__left .skill__list .skill__item:nth-child(n) {
+  border-bottom: none;
+}
+
+.skill .skill__left .skill__list .skill__item:last-child {
+  border-bottom: 1px solid rgb(139, 139, 139);
+}
+
+.skill .skill__left .skill__list .skill__item .fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 50%;
+  margin: 14px 30px 14px 20px;
+  font-size: 46px;
+  color: rgb(105, 105, 105);
+}
+
+.skill .skill__left .skill__list .skill__item .item__info {
+  width: 68%;
+  margin-top: 14px;
+}
+
+.skill .skill__left .skill__list .skill__item .item__info .item__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: rgb(105, 105, 105);
+}
+
+.skill .skill__left .skill__list .skill__item .item__info .item__des {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+}
+
+.skill .skill__right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 450px;
+  width: 50%;
+  transform: translateY(-50%);
+}
+
+.skill .skill__right .plan__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  right: 0;
+  width: 80%;
+  height: 100%;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.skill .skill__right .plan__info .plan__title {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(105, 105, 105);
+}
+
+.skill .skill__right .plan__info .plan__des {
+  color: rgb(105, 105, 105);
+}

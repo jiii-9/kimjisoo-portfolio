@@ -1,0 +1,45 @@
+/* CONTACT */
+
+.contact {
+  margin: 80px 0;
+}
+
+.contact > .inner {
+}
+
+.contact .contact__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.contact .contact__title .category__title {
+  color: #b1c7e1;
+}
+
+.contact .contact__list {
+  display: flex;
+  justify-content: center;
+}
+
+.contact .contact__list .contact__item {
+  margin-right: 50px;
+}
+
+.contact .contact__list .contact__item:last-child {
+  margin-right: 0;
+}
+
+.contact .contact__list .contact__item__link {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact__list .contact__item__link > .contact__icon {
+  font-size: 46px;
+  color: #b1c7e1;
+}

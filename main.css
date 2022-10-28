@@ -1,0 +1,52 @@
+@import "./style/main-page.css";
+@import "./style/about.css";
+@import "./style/skill.css";
+@import "./style/project.css";
+@import "./style/contact.css";
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.inner {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.category__title {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 14px;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.category__line {
+  width: 50px;
+  border-bottom: 2px solid #b1c7e1;
+}

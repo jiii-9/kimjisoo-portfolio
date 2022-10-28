@@ -1,0 +1,134 @@
+/* MAIN-PAGE */
+.main-page {
+  position: relative;
+  margin-bottom: 80px;
+  background-color: transparent;
+}
+
+.main-page .background__img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.4;
+}
+
+.main-page > .inner {
+  top: 0;
+}
+
+.main-page .main__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.main-page .main__header .portfolio-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.main-page .main__header .portfolio-logo:hover {
+  cursor: pointer;
+}
+
+.main-page .main__header .main__nav {
+}
+
+.main-page .main__header .main__nav .nav__list {
+  display: flex;
+}
+
+.main-page .main__header .main__nav .nav__list .nav__item {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main-page .main__header .main__nav .nav__list .nav__item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 0;
+  border-bottom: 1px solid #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-page .main__header .main__nav .nav__list .nav__item:hover {
+  cursor: pointer;
+}
+
+.main-page .main__header .main__nav .nav__list .nav__item:hover::after {
+  content: "";
+  max-width: 100%;
+}
+
+.main-page .main__header .main__nav .nav__list .nav__item:last-child {
+  margin-right: 0;
+  border: 1px solid #333;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-page .main__header .main__nav .nav__list .nav__item:last-child:hover {
+  border-color: #a5cadd;
+  color: #fff;
+  background-color: #a5cadd;
+}
+
+.main-page .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+
+.main-page .intro .intro__des {
+  position: relative;
+  text-transform: capitalize;
+  white-space: nowrap;
+  margin-bottom: 80px;
+  font-size: 1.8vw;
+  font-weight: 700;
+  color: transparent;
+}
+
+.main-page .intro .intro__des::before {
+  content: "신입 프론트엔드 개발자 김지수 입니다.";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 3px solid #333;
+  color: #333;
+  overflow: hidden;
+  animation: typing 10s steps(21) infinite;
+}
+
+.main-page .intro .intro__img {
+}
+
+.main-page .intro .intro__img .jisoo {
+  width: 350px;
+  border-radius: 50%;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}

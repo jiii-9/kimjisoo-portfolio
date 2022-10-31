@@ -60,6 +60,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+.main-page .main__header .main__nav .nav__list .nav__item:last-child::after {
+  border-bottom: none;
+}
+
 .main-page .main__header .main__nav .nav__list .nav__item:hover {
   cursor: pointer;
 }

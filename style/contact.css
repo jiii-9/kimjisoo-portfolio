@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration-line: none;
 }
 
 .contact .contact__list .contact__item__link > .contact__icon {

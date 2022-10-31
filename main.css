@@ -22,7 +22,7 @@ span {
 }
 
 a {
-  text-decoration-line: none;
+  text-decoration: underline;
 }
 
 li {
